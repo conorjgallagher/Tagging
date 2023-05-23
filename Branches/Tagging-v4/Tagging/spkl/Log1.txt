@@ -1,0 +1,207 @@
+22:11:47	Deploying WebResources
+22:11:47	Using Config 'C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+22:11:49	Updating Webresource 'tagging.html' -> 'xrmc_/tagging.html'
+22:11:52	Adding to solution 'ContentTagging'
+22:11:53	Updating Webresource 'tagcloud.html' -> 'xrmc_/tagcloud.html'
+22:11:53	Adding to solution 'ContentTagging'
+22:11:56	Updating Webresource 'colorpicker.html' -> 'xrmc_/colorpicker.html'
+22:11:57	Adding to solution 'ContentTagging'
+22:11:58	Updating Webresource 'js\spectrum.js' -> 'xrmc_/js/spectrum.js'
+22:11:59	Adding to solution 'ContentTagging'
+22:12:00	Updating Webresource 'js\tagging.js' -> 'xrmc_/js/tagging.js'
+22:12:01	Adding to solution 'ContentTagging'
+22:12:01	Updating Webresource 'css\tagging.css' -> 'xrmc_/css/tagging.css'
+22:12:02	Adding to solution 'ContentTagging'
+22:12:02	Updating Webresource 'css\listselect.png' -> 'xrmc_/css/listselect.png'
+22:12:02	Adding to solution 'ContentTagging'
+22:12:03	Updating Webresource 'css\close16.png' -> 'xrmc_/css/close16.png'
+22:12:03	Adding to solution 'ContentTagging'
+22:12:04	Deployed 8 webresource(s)
+22:12:04	Publishing 8 webresources...
+22:12:08	Publish complete.
+22:12:08	Processed 1 section(s)
+22:12:08	Processed 1 config(s)
+23:47:40	Deploying WebResources
+23:47:40	Using Config 'C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+23:47:41	Updating Webresource 'tagging.html' -> 'xrmc_/tagging.html'
+23:47:46	Adding to solution 'ContentTagging'
+23:47:48	Updating Webresource 'tagcloud.html' -> 'xrmc_/tagcloud.html'
+23:47:52	Adding to solution 'ContentTagging'
+23:47:53	Updating Webresource 'colorpicker.html' -> 'xrmc_/colorpicker.html'
+23:47:55	Adding to solution 'ContentTagging'
+23:47:55	Updating Webresource 'js\spectrum.js' -> 'xrmc_/js/spectrum.js'
+23:47:56	Adding to solution 'ContentTagging'
+23:47:56	Creating Webresource 'js\tagging.js' -> 'xrmc_/js/tagging.js'
+23:47:57	Adding to solution 'ContentTagging'
+23:47:58	Updating Webresource 'css\tagging.css' -> 'xrmc_/css/tagging.css'
+23:47:58	Adding to solution 'ContentTagging'
+23:47:58	Updating Webresource 'css\listselect.png' -> 'xrmc_/css/listselect.png'
+23:47:58	Adding to solution 'ContentTagging'
+23:47:59	Updating Webresource 'css\close16.png' -> 'xrmc_/css/close16.png'
+23:47:59	Adding to solution 'ContentTagging'
+23:48:00	Deployed 8 webresource(s)
+23:48:00	Publishing 8 webresources...
+23:48:05	Publish complete.
+23:48:05	Processed 1 section(s)
+23:48:05	Processed 1 config(s)
+00:00:23	Deploying WebResources
+00:00:23	Using Config 'C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+00:00:24	Updating Webresource 'tagging.html' -> 'xrmc_/tagging.html'
+00:00:25	Adding to solution 'ContentTagging'
+00:00:26	Updating Webresource 'tagcloud.html' -> 'xrmc_/tagcloud.html'
+00:00:26	Adding to solution 'ContentTagging'
+00:00:27	Updating Webresource 'colorpicker.html' -> 'xrmc_/colorpicker.html'
+00:00:27	Adding to solution 'ContentTagging'
+00:00:28	Updating Webresource 'js\spectrum.js' -> 'xrmc_/js/spectrum.js'
+00:00:28	Adding to solution 'ContentTagging'
+00:00:29	Updating Webresource 'js\tagging.js' -> 'xrmc_/js/tagging.js'
+00:00:29	Adding to solution 'ContentTagging'
+00:00:29	Updating Webresource 'js\SparkleXrm.js' -> 'xrmc_/js/SparkleXrm.js'
+00:00:29	Adding to solution 'ContentTagging'
+00:00:30	Updating Webresource 'js\SparkleXrmUI.js' -> 'xrmc_/js/SparkleXrmUI.js'
+00:00:30	Adding to solution 'ContentTagging'
+00:00:31	Updating Webresource 'js\SparkleXrmUI_Dependancies.js' -> 'xrmc_/js/SparkleXrmUI_Dependancies.js'
+00:00:31	Adding to solution 'ContentTagging'
+00:00:32	Updating Webresource 'css\tagging.css' -> 'xrmc_/css/tagging.css'
+00:00:32	Adding to solution 'ContentTagging'
+00:00:32	Updating Webresource 'css\listselect.png' -> 'xrmc_/css/listselect.png'
+00:00:33	Adding to solution 'ContentTagging'
+00:00:33	Updating Webresource 'css\close16.png' -> 'xrmc_/css/close16.png'
+00:00:33	Adding to solution 'ContentTagging'
+00:00:33	Deployed 11 webresource(s)
+00:00:33	Publishing 11 webresources...
+00:00:37	Publish complete.
+00:00:37	Processed 1 section(s)
+00:00:37	Processed 1 config(s)
+00:14:06	Deploying WebResources
+00:14:06	Using Config 'C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+00:14:08	Updating Webresource 'tagging.html' -> 'xrmc_/tagging.html'
+00:14:09	Adding to solution 'ContentTagging'
+00:14:10	Updating Webresource 'tagcloud.html' -> 'xrmc_/tagcloud.html'
+00:14:10	Adding to solution 'ContentTagging'
+00:14:11	Updating Webresource 'colorpicker.html' -> 'xrmc_/colorpicker.html'
+00:14:11	Adding to solution 'ContentTagging'
+00:14:12	Updating Webresource 'js\spectrum.js' -> 'xrmc_/js/spectrum.js'
+00:14:12	Adding to solution 'ContentTagging'
+00:14:12	Updating Webresource 'js\tagging.js' -> 'xrmc_/js/tagging.js'
+00:14:13	Adding to solution 'ContentTagging'
+00:14:13	Updating Webresource 'js\SparkleXrm.js' -> 'xrmc_/js/SparkleXrm.js'
+00:14:13	Adding to solution 'ContentTagging'
+00:14:14	Updating Webresource 'js\SparkleXrmUI.js' -> 'xrmc_/js/SparkleXrmUI.js'
+00:14:14	Adding to solution 'ContentTagging'
+00:14:14	Updating Webresource 'js\SparkleXrmUI_Dependancies.js' -> 'xrmc_/js/SparkleXrmUI_Dependancies.js'
+00:14:15	Adding to solution 'ContentTagging'
+00:14:15	Updating Webresource 'js\jquery.tokeninput.js' -> 'xrmc_/js/jquery.tokeninput.js'
+00:14:15	Adding to solution 'ContentTagging'
+00:14:16	Updating Webresource 'css\tagging.css' -> 'xrmc_/css/tagging.css'
+00:14:16	Adding to solution 'ContentTagging'
+00:14:16	Updating Webresource 'css\listselect.png' -> 'xrmc_/css/listselect.png'
+00:14:16	Adding to solution 'ContentTagging'
+00:14:17	Updating Webresource 'css\close16.png' -> 'xrmc_/css/close16.png'
+00:14:17	Adding to solution 'ContentTagging'
+00:14:17	Deployed 12 webresource(s)
+00:14:17	Publishing 12 webresources...
+00:14:21	Publish complete.
+00:14:21	Processed 1 section(s)
+00:14:21	Processed 1 config(s)
+00:18:38	Deploying WebResources
+00:18:39	Using Config 'C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+00:18:40	Updating Webresource 'tagging.html' -> 'xrmc_/tagging.html'
+00:18:41	Adding to solution 'ContentTagging'
+00:18:42	Updating Webresource 'tagcloud.html' -> 'xrmc_/tagcloud.html'
+00:18:42	Adding to solution 'ContentTagging'
+00:18:42	Updating Webresource 'colorpicker.html' -> 'xrmc_/colorpicker.html'
+00:18:43	Adding to solution 'ContentTagging'
+00:18:43	Updating Webresource 'js\spectrum.js' -> 'xrmc_/js/spectrum.js'
+00:18:43	Adding to solution 'ContentTagging'
+00:18:44	Updating Webresource 'js\tagging.js' -> 'xrmc_/js/tagging.js'
+00:18:44	Adding to solution 'ContentTagging'
+00:18:44	Updating Webresource 'js\SparkleXrm.js' -> 'xrmc_/js/SparkleXrm.js'
+00:18:45	Adding to solution 'ContentTagging'
+00:18:45	Updating Webresource 'js\SparkleXrmUI.js' -> 'xrmc_/js/SparkleXrmUI.js'
+00:18:45	Adding to solution 'ContentTagging'
+00:18:45	Updating Webresource 'js\SparkleXrmUI_Dependancies.js' -> 'xrmc_/js/SparkleXrmUI_Dependancies.js'
+00:18:46	Adding to solution 'ContentTagging'
+00:18:46	Updating Webresource 'js\jquery.tokeninput.js' -> 'xrmc_/js/jquery.tokeninput.js'
+00:18:46	Adding to solution 'ContentTagging'
+00:18:47	Updating Webresource 'css\tagging.css' -> 'xrmc_/css/tagging.css'
+00:18:47	Adding to solution 'ContentTagging'
+00:18:47	Updating Webresource 'css\listselect.png' -> 'xrmc_/css/listselect.png'
+00:18:47	Adding to solution 'ContentTagging'
+00:18:48	Updating Webresource 'css\close16.png' -> 'xrmc_/css/close16.png'
+00:18:48	Adding to solution 'ContentTagging'
+00:18:48	Deployed 12 webresource(s)
+00:18:48	Publishing 12 webresources...
+00:18:51	Publish complete.
+00:18:51	Processed 1 section(s)
+00:18:51	Processed 1 config(s)
+00:24:21	Deploying WebResources
+00:24:21	Using Config 'C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+00:24:23	Updating Webresource 'tagging.html' -> 'xrmc_/tagging.html'
+00:24:24	Adding to solution 'ContentTagging'
+00:24:24	Updating Webresource 'tagcloud.html' -> 'xrmc_/tagcloud.html'
+00:24:25	Adding to solution 'ContentTagging'
+00:24:25	Updating Webresource 'colorpicker.html' -> 'xrmc_/colorpicker.html'
+00:24:26	Adding to solution 'ContentTagging'
+00:24:26	Updating Webresource 'js\spectrum.js' -> 'xrmc_/js/spectrum.js'
+00:24:26	Adding to solution 'ContentTagging'
+00:24:27	Updating Webresource 'js\tagging.js' -> 'xrmc_/js/tagging.js'
+00:24:27	Adding to solution 'ContentTagging'
+00:24:28	Updating Webresource 'js\SparkleXrm.js' -> 'xrmc_/js/SparkleXrm.js'
+00:24:28	Adding to solution 'ContentTagging'
+00:24:28	Updating Webresource 'js\SparkleXrmUI.js' -> 'xrmc_/js/SparkleXrmUI.js'
+00:24:29	Adding to solution 'ContentTagging'
+00:24:29	Updating Webresource 'js\SparkleXrmUI_Dependancies.js' -> 'xrmc_/js/SparkleXrmUI_Dependancies.js'
+00:24:29	Adding to solution 'ContentTagging'
+00:24:30	Updating Webresource 'js\jquery.tokeninput.js' -> 'xrmc_/js/jquery.tokeninput.js'
+00:24:30	Adding to solution 'ContentTagging'
+00:24:30	Updating Webresource 'css\tagging.css' -> 'xrmc_/css/tagging.css'
+00:24:31	Adding to solution 'ContentTagging'
+00:24:31	Updating Webresource 'css\listselect.png' -> 'xrmc_/css/listselect.png'
+00:24:31	Adding to solution 'ContentTagging'
+00:24:32	Updating Webresource 'css\close16.png' -> 'xrmc_/css/close16.png'
+00:24:32	Adding to solution 'ContentTagging'
+00:24:32	Deployed 12 webresource(s)
+00:24:32	Publishing 12 webresources...
+00:24:36	Publish complete.
+00:24:36	Processed 1 section(s)
+00:24:36	Processed 1 config(s)
+00:28:45	Deploying WebResources
+00:28:45	Using Config 'C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+00:28:46	Updating Webresource 'tagging.html' -> 'xrmc_/tagging.html'
+00:28:47	Adding to solution 'ContentTagging'
+00:28:48	Updating Webresource 'tagcloud.html' -> 'xrmc_/tagcloud.html'
+00:28:48	Adding to solution 'ContentTagging'
+00:28:48	Updating Webresource 'colorpicker.html' -> 'xrmc_/colorpicker.html'
+00:28:49	Adding to solution 'ContentTagging'
+00:28:49	Updating Webresource 'js\spectrum.js' -> 'xrmc_/js/spectrum.js'
+00:28:49	Adding to solution 'ContentTagging'
+00:28:50	Updating Webresource 'js\tagging.js' -> 'xrmc_/js/tagging.js'
+00:28:50	Adding to solution 'ContentTagging'
+00:28:51	Updating Webresource 'js\SparkleXrm.js' -> 'xrmc_/js/SparkleXrm.js'
+00:28:51	Adding to solution 'ContentTagging'
+00:28:51	Updating Webresource 'js\SparkleXrmUI.js' -> 'xrmc_/js/SparkleXrmUI.js'
+00:28:52	Adding to solution 'ContentTagging'
+00:28:52	Updating Webresource 'js\SparkleXrmUI_Dependancies.js' -> 'xrmc_/js/SparkleXrmUI_Dependancies.js'
+00:28:52	Adding to solution 'ContentTagging'
+00:28:53	Updating Webresource 'js\jquery.tokeninput.js' -> 'xrmc_/js/jquery.tokeninput.js'
+00:28:53	Adding to solution 'ContentTagging'
+00:28:54	Updating Webresource 'css\tagging.css' -> 'xrmc_/css/tagging.css'
+00:28:54	Adding to solution 'ContentTagging'
+00:28:55	Updating Webresource 'css\listselect.png' -> 'xrmc_/css/listselect.png'
+00:28:55	Adding to solution 'ContentTagging'
+00:28:55	Updating Webresource 'css\close16.png' -> 'xrmc_/css/close16.png'
+00:28:55	Adding to solution 'ContentTagging'
+00:28:56	Deployed 12 webresource(s)
+00:28:56	Publishing 12 webresources...
+00:28:59	Publish complete.
+00:28:59	Processed 1 section(s)
+00:28:59	Processed 1 config(s)
+20:26:43	Deploying Plugins
+20:26:43	Searching for plugin config in 'C:\dev\xRMC\Tagging\Branches\Tagging-v4\Tagging\spkl\..'
+20:26:43	Using Config 'C:\dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+20:26:43	Processed 1 config(s)
+20:47:04	Deploying Plugins
+20:47:04	Searching for plugin config in 'C:\dev\xRMC\Tagging\Branches\Tagging-v4\Tagging\spkl\..'
+20:47:05	Using Config 'C:\dev\xRMC\Tagging\Branches\Tagging-v4\Tagging'
+20:47:05	Processed 1 config(s)

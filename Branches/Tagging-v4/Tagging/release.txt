@@ -1,0 +1,32 @@
+﻿Version history:
+3.1.0 - Added ability to update a tag list in connected entity
+3.0.3 - Fixed an issue with multitag web resource
+3.0.2 - Made security roles customisable
+      - Added some error handling to deletes to account for potential security changes
+3.0.1 - Added multi tagging and tag colours
+2.2.3 - Fixed issue with XrmServiceToolkit and CRM 2015
+2.2.2 - Added a fix in case of no synonym attribute being returned
+2.1.0 - Introduced Synonyms
+      - Fixed some aggregration limit issues
+2.0.1 - Improved parent/child tag hierarchy so that it traversed the entire tree rather than just 1 level
+2.0.0 - Introduced parent/child tag hierarchy with ability to filter the tags shown
+1.3.6 - Added notes and document management to tag entity for 2013
+      - Fixed focussing issues
+1.3.5 - Fixed sitemap issues
+1.3.4 - Fixed focussing issues
+1.3.3 - Fixed security role bugs
+      - Added offline capability
+	  - Fixed configuration bugs
+1.3.2 - Licencing changes
+1.3.1 - Added notes and document management to tag entity
+
+1.0.4 - Added auto refresh ability after record save for a new record
+1.0.3 - Fixed tag count issues.
+1.0.2 - fixed jquery missing web resource and some typos
+      - fix for js error during workflow editing
+      - clean up of js and unused webresources
+      - CRM 2103 compatibility
+1.0.1 - Updated to commercial version
+      - license key to support unlimited tags
+      - added indicator to show tag connection being saved in the background
+1.0.0 - First public release

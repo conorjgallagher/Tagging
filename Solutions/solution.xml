@@ -1,0 +1,142 @@
+<ImportExportXml version="6.0.0000.0809" SolutionPackageVersion="6.0" languagecode="1033" generatedBy="OnPremise" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>ContentTagging</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Content Tagging by xRM Consultancy" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Content Tagging by xRM Consultancy &#xA;&#xA;xRM Consultancy’s Tagging solution allows users to ‘tag’ any record in CRM with either their own tags or previously entered tags. It can be configured so that only a predefined set of tags can be used however the normal set up is that anyone can contribute to the tag ‘pool’.&#xA;&#xA;User’s simply enter a word or phrase they wish to tag a record with. As they start typing existing tag matches are automatically displayed for users to select, and if no match is found the user’s new tag is added to the Tag ‘catalogue’ (if they have the appropriate security roles). The Tag catalogue is a very simple Organization level entity (this means tag records are not ‘owned’ by any user and are available for all users to see (provided they have at least read access to the entity).&#xA;&#xA;When a ‘tag’ is associated with a CRM record a Connection is made automatically (using the standard CRM Connections functionality) to save the Tag association. Because we are using the Connections functionality you can use Advance Find to query your tag associations.&#xA;&#xA;Credits:&#xA;Tag icon courtesy of http://www.fatcow.com/free-icons&#xA;Tag input source based on http://loopj.com/jquery-tokeninput/&#xA;Tag cloud source based on https://github.com/addywaddy/jquery.tagcloud.js/&#xA;CRM JavaScript helper library: http://xrmservicetoolkit.codeplex.com/" languagecode="1033" />
+    </Descriptions>
+    <Version>3.2.0.9</Version>
+    <Managed>0</Managed>
+    <ConfigurationPage>xrmc_/Tagging_Terms_Conditions.html</ConfigurationPage>
+    <Publisher>
+      <UniqueName>xrmconsultancy</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="xRM Consultancy" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="The xRM Consultancy specialises in building custom business applications and products on the Microsoft Dynamics CRM platform." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress>info@xrmconsultancy.com</EMailAddress>
+      <SupportingWebsiteUrl>www.xrmconsultancy.com</SupportingWebsiteUrl>
+      <CustomizationPrefix>xrmc</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>92268</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City>London</City>
+          <County xsi:nil="true"></County>
+          <Country>United Kingdom</Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1>Unit 18 Elysium Gate</Line1>
+          <Line2>126 New Kings Road</Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode>SW6 4LZ</PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince>London</StateOrProvince>
+          <Telephone1>+44 (0) 7733 262 333</Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="connection" />
+      <RootComponent type="1" schemaName="xrmc_tag" />
+      <RootComponent type="1" schemaName="xrmc_taggingconfiguration" />
+      <RootComponent type="20" id="{2fb3cf63-04d9-e211-b62d-3c4a92dbdc51}" />
+      <RootComponent type="20" id="{6e437f68-77da-e211-b62d-3c4a92dbdc51}" />
+      <RootComponent type="20" id="{fc85a883-04d9-e211-b62d-3c4a92dbdc51}" />
+      <RootComponent type="29" id="{0c300800-2fe1-4773-81fa-9c85138c86e8}" />
+      <RootComponent type="29" id="{2f697281-58b5-4dd1-ad58-5be6c4ff9e19}" />
+      <RootComponent type="29" id="{83df5f06-90f5-4bd0-a2fc-0e0a11dec766}" />
+      <RootComponent type="60" id="{6b338174-77d4-e211-8a32-3c4a92dbdc51}" />
+      <RootComponent type="61" schemaName="xrmc_/colorpicker.html" />
+      <RootComponent type="61" schemaName="xrmc_/css/control_imgs.png" />
+      <RootComponent type="61" schemaName="xrmc_/css/jquery.ui.css" />
+      <RootComponent type="61" schemaName="xrmc_/css/listselect.png" />
+      <RootComponent type="61" schemaName="xrmc_/css/multitag.png" />
+      <RootComponent type="61" schemaName="xrmc_/css/spectrum.css" />
+      <RootComponent type="61" schemaName="xrmc_/css/tagging.css" />
+      <RootComponent type="61" schemaName="xrmc_/css/tag_blue_16.png" />
+      <RootComponent type="61" schemaName="xrmc_/css/tag_blue_32.png" />
+      <RootComponent type="61" schemaName="xrmc_/img/logo.png" />
+      <RootComponent type="61" schemaName="xrmc_/js/jquery.min.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/jquery.tagcloud.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/jquery.tokeninput.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/jquery.ui.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/json2.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/list.min.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/sdk_rest.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/spectrum.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/tagging.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/TaggingConfig.js" />
+      <RootComponent type="61" schemaName="xrmc_/js/XrmServiceToolkit.js" />
+      <RootComponent type="61" schemaName="xrmc_/MultiTag.html" />
+      <RootComponent type="61" schemaName="xrmc_/MultiTagRibbon.js" />
+      <RootComponent type="61" schemaName="xrmc_/SampleTag.html" />
+      <RootComponent type="61" schemaName="xrmc_/TagCloud.html" />
+      <RootComponent type="61" schemaName="xrmc_/Tagging.html" />
+      <RootComponent type="61" schemaName="xrmc_/Tagging_Terms_Conditions.html" />
+      <RootComponent type="63" id="{a6594384-3bd4-e211-8a32-3c4a92dbdc51}" />
+      <RootComponent type="91" schemaName="Tagging.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=28fdf5bb7574a0b5" />
+      <RootComponent type="92" id="{0061a60d-35eb-e211-85bc-080027eadcf2}" />
+      <RootComponent type="92" id="{8a8af26a-c492-e611-b00e-00155dc03900}" />
+      <RootComponent type="92" id="{d42e7c2e-5025-e311-b522-d48564519ccb}" />
+      <RootComponent type="92" id="{f960a60d-35eb-e211-85bc-080027eadcf2}" />
+      <RootComponent type="92" id="{fd60a60d-35eb-e211-85bc-080027eadcf2}" />
+      <RootComponent type="92" id="{fe0ad274-c492-e611-b00e-00155dc03900}" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="9" schemaName="connectionrole_category" displayName="Category" solution="System" />
+        <Dependent key="1" type="63" displayName="Tag" id="{a6594384-3bd4-e211-8a32-3c4a92dbdc51}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="20" displayName="System Customizer" solution="System" id="{71427ebc-abf5-e311-a5fa-080027ac1123}" parentId="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Dependent key="3" type="60" parentDisplayName="Tag" id="{ee6282b4-8057-45e5-92a5-15b133b91b05}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

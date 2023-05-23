@@ -1,0 +1,44 @@
+<html>
+<head>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="../ClientGlobalContext.js.aspx"></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/XrmServiceToolkit.js"></script>
+	<script type="text/javascript" src="js/jquery.tagcloud.js"></script>
+	<script type="text/javascript" src="js/tagging.js"></script>
+    <link rel="stylesheet" href="css/tagging.css" type="text/css" />
+</head>
+
+<body>
+    <div>
+    	<div id="xrmc-tagCloud-refresh"><a href="#" onClick="window.location.reload(); return false;" tabindex="0"><img src="/_imgs/imagestrips/transparent_spacer.gif" class="refreshTagCloud" style="cursor:pointer" alt="Refresh Tag Cloud" title="Refresh Tag Cloud"></a></div>
+    	<h1 class="xrmc-tagCloud">Tag Cloud</h1>
+    	<div id="tagMessage" style="display:none;">
+    		<span></span>
+    		<div id="notAuthorised" style="display:none;">You do not have the correct permissions to use Tagging. Please contact your system administrator.</div>
+    	</div>
+		<div id="xrmc-tagCloud" style="display:none"></div>
+        <script type="text/javascript">
+            jQuery.noConflict();
+            (function ($) {
+                $(document).ready(function () {
+
+                    //Tag Writer - User Can Create Tags and Create and Delete Tag Connections
+                    if (XrmServiceToolkit.Soap.IsCurrentUserRole("Tag Writer") || XrmServiceToolkit.Soap.IsCurrentUserRole("Tag Associator") || XrmServiceToolkit.Soap.IsCurrentUserRole("Tag Reader")) {
+                        XRMC.tagging.buildTagCloud();
+                        $("#xrmc-tagCloud").show();
+                    }
+                    //User can't read Tags
+                    else {
+                        $("#tagMessage").show();
+                        $("#notAuthorised").show();
+                    }
+
+                });
+            })(jQuery);
+        </script>
+
+        </div>
+  
+</body>
+</html>

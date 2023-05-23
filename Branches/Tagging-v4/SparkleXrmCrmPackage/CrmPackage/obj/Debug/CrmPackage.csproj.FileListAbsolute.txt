@@ -1,0 +1,11 @@
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\SparkleXrmCrmPackage\CrmPackage\bin\Debug\SparkleXrmCrmPackage.CrmPackage.dll
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\SparkleXrmCrmPackage\CrmPackage\bin\Debug\SparkleXrmCrmPackage.CrmPackage.pdb
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\SparkleXrmCrmPackage\CrmPackage\obj\Debug\CrmPackage.csprojAssemblyReference.cache
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\SparkleXrmCrmPackage\CrmPackage\obj\Debug\CrmPackage.csproj.CoreCompileInputs.cache
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\SparkleXrmCrmPackage\CrmPackage\obj\Debug\SparkleXrmCrmPackage.CrmPackage.dll
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\SparkleXrmCrmPackage\CrmPackage\obj\Debug\SparkleXrmCrmPackage.CrmPackage.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\bin\Debug\SparkleXrmCrmPackage.CrmPackage.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\bin\Debug\SparkleXrmCrmPackage.CrmPackage.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\obj\Debug\CrmPackage.csprojAssemblyReference.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\obj\Debug\SparkleXrmCrmPackage.CrmPackage.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\obj\Debug\SparkleXrmCrmPackage.CrmPackage.pdb

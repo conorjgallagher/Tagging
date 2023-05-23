@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tagging", "Tagging\Tagging.csproj", "{789FF6E6-70FB-46C8-8A24-62A834545806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External DLLs", "External DLLs", "{E51EDAE2-997E-4835-9D86-540892E86DFF}"
+	ProjectSection(SolutionItems) = preProject
+		External DLLs\jsmin.exe = External DLLs\jsmin.exe
+		External DLLs\minify.bat = External DLLs\minify.bat
+		External DLLs\SeriousBit.Licensing.dll = External DLLs\SeriousBit.Licensing.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{E448271D-9E59-4E33-9599-3FCE96370106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmPackage", "SparkleXrmCrmPackage\CrmPackage\CrmPackage.csproj", "{AEFC2818-1640-4DA2-8B9C-6A4DE6DE4B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientUI", "ClientUI\ClientUI.csproj", "{F407ACA9-9255-4CBF-9567-FC5098A4D630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tagging.Extended", "Tagging.Extended\Tagging.Extended.csproj", "{B1FADDFF-562F-4147-8D7B-564E29CA46E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{789FF6E6-70FB-46C8-8A24-62A834545806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789FF6E6-70FB-46C8-8A24-62A834545806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789FF6E6-70FB-46C8-8A24-62A834545806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789FF6E6-70FB-46C8-8A24-62A834545806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E448271D-9E59-4E33-9599-3FCE96370106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E448271D-9E59-4E33-9599-3FCE96370106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E448271D-9E59-4E33-9599-3FCE96370106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E448271D-9E59-4E33-9599-3FCE96370106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFC2818-1640-4DA2-8B9C-6A4DE6DE4B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFC2818-1640-4DA2-8B9C-6A4DE6DE4B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFC2818-1640-4DA2-8B9C-6A4DE6DE4B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFC2818-1640-4DA2-8B9C-6A4DE6DE4B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F407ACA9-9255-4CBF-9567-FC5098A4D630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F407ACA9-9255-4CBF-9567-FC5098A4D630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F407ACA9-9255-4CBF-9567-FC5098A4D630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F407ACA9-9255-4CBF-9567-FC5098A4D630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FADDFF-562F-4147-8D7B-564E29CA46E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FADDFF-562F-4147-8D7B-564E29CA46E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FADDFF-562F-4147-8D7B-564E29CA46E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FADDFF-562F-4147-8D7B-564E29CA46E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D21AD6F-74E5-4CBE-95C0-CB9FBFAC2CB5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://xrmconsultancy.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tagging\\Tagging.csproj
+		SccProjectName1 = Tagging
+		SccLocalPath1 = Tagging
+		SccProjectUniqueName2 = Plugins\\Plugins.csproj
+		SccProjectName2 = Plugins
+		SccLocalPath2 = Plugins
+		SccProjectUniqueName3 = SparkleXrmCrmPackage\\CrmPackage\\CrmPackage.csproj
+		SccProjectName3 = SparkleXrmCrmPackage/CrmPackage
+		SccLocalPath3 = SparkleXrmCrmPackage\\CrmPackage
+		SccProjectUniqueName4 = ClientUI\\ClientUI.csproj
+		SccProjectName4 = ClientUI
+		SccLocalPath4 = ClientUI
+		SccProjectUniqueName5 = Tagging.Extended\\Tagging.Extended.csproj
+		SccProjectName5 = Tagging.Extended
+		SccLocalPath5 = Tagging.Extended
+	EndGlobalSection
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+EndGlobal

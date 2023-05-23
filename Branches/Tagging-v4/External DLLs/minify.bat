@@ -1,0 +1,1 @@
+jsmin <..\Tagging\js\tagging.full.js >..\Tagging\js\tagging.js

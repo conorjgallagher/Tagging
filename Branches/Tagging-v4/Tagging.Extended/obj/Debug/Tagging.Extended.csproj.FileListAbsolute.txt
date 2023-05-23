@@ -1,0 +1,8 @@
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging.Extended\bin\Debug\Tagging.Extended.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging.Extended\bin\Debug\Tagging.Extended.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging.Extended\bin\Debug\mscorlib.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging.Extended\bin\Debug\mscorlib.xml
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging.Extended\obj\Debug\Tagging.Extended.csprojAssemblyReference.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging.Extended\obj\Debug\Tagging.Extended.csproj.CopyComplete
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging.Extended\obj\Debug\Tagging.Extended.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging.Extended\obj\Debug\Tagging.Extended.pdb

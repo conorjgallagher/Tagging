@@ -1,0 +1,101 @@
+{
+  "webresources": [
+    {
+      /* 
+      Option - profile - Provide a comma delimitered list of profile names that can be referenced when calling spkl
+      */
+      "profile": "default,debug",
+
+      /*
+      Optional - root - Provide the relatative path of the webresources.
+      */
+      //"root": "xrmc_/",
+
+      /*
+      Optional - solution - Add webresources to a solution when deploying
+      */
+      "solution": "ContentTagging",
+
+      /*
+      Required - files - List the webresources to deploy relatative to the root of this file (or the the root parameter above)
+      */
+      "files": [
+        //{
+        //  "uniquename": "xrmc_/tagging.html",
+        //  "file": "tagging.html",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/tagcloud.html",
+        //  "file": "tagcloud.html",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/colorpicker.html",
+        //  "file": "colorpicker.html",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/js/spectrum.js",
+        //  "file": "js\\spectrum.js",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/js/tagging.js",
+        //  "file": "js\\tagging.js",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/js/SparkleXrm.js",
+        //  "file": "js\\SparkleXrm.js",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/js/SparkleXrmUI.js",
+        //  "file": "js\\SparkleXrmUI.js",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/js/SparkleXrmUI_Dependancies.js",
+        //  "file": "js\\SparkleXrmUI_Dependancies.js",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/js/jquery.tokeninput.js",
+        //  "file": "js\\jquery.tokeninput.js",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/css/tagging.css",
+        //  "file": "css\\tagging.css",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/css/listselect.png",
+        //  "file": "css\\listselect.png",
+        //  "description": ""
+        //},
+        //{
+        //  "uniquename": "xrmc_/css/close16.png",
+        //  "file": "css\\close16.png",
+        //  "description": ""
+        //}
+      ]
+    }
+  ]
+  //"plugins": [
+  //  {
+  //    /*
+  //    Required - assemblypath - Relative path (from this file or the path parameter above) to the assembies to deply
+  //    Can be either plugins or workflow activities
+  //    Create multiple entries for different profiles
+  //    */
+  //    "profile": "default,debug",
+  //    "assemblypath": "..\\plugins\\bin\\Debug\\Tagging.Plugins.dll"
+  //    /*
+  //    Optional - defines the regex to use to detect a plugin or workflow activity when using a custom base class
+  //    */
+  //    //"classRegex": "((public( sealed)? class (?'class'[\\w]*)[\\W]*?)((?'plugin':[\\W]*?((IPlugin)|(PluginBase)|(Plugin)))|(?'wf':[\\W]*?CodeActivity)))"
+  //  }
+  //]
+}

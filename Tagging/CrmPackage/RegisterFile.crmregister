@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="Tagging.Plugins.dll" Id="f560a60d-35eb-e211-85bc-080027eadcf2" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <Plugin Description="Plug-in to PreValidateConnectionCreate" FriendlyName="PreValidateConnectionCreate" Name="Tagging.Plugins.PreValidateConnectionCreate" Id="c30235c5-4bf6-e311-a5fa-080027ac1123" TypeName="Tagging.Plugins.PreValidateConnectionCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PreValidateConnectionCreate" Description="Pre-Validation of Connection Create" Id="f960a60d-35eb-e211-85bc-080027eadcf2" MessageName="Create" Mode="Synchronous" PrimaryEntityName="connection" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to RecalculateConnectionTagCount" FriendlyName="RecalculateConnectionTagCount" Name="Tagging.Plugins.RecalculateConnectionTagCount" Id="c40235c5-4bf6-e311-a5fa-080027ac1123" TypeName="Tagging.Plugins.RecalculateConnectionTagCount">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="RecalculateConnectionTagCount" Description="Pre-Operation of Connection Create" Id="fd60a60d-35eb-e211-85bc-080027eadcf2" MessageName="Create" Mode="Synchronous" PrimaryEntityName="connection" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+            <Step CustomConfiguration="" Name="RecalculateConnectionTagCount" Description="Pre-Operation of Connection Delete" Id="0061a60d-35eb-e211-85bc-080027eadcf2" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="connection" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in for General Tagging Management" FriendlyName="TaggingManagement" Name="Tagging.Plugins.Tagging" Id="c50235c5-4bf6-e311-a5fa-080027ac1123" TypeName="Tagging.Plugins.Tagging">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="TaggingManagement" Description="Pre-Operation of Tagging Update" Id="d42e7c2e-5025-e311-b522-d48564519ccb" MessageName="Update" Mode="Synchronous" PrimaryEntityName="xrmc_taggingconfiguration" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+  </Solutions>
+  <XamlWorkflows />
+</Register>

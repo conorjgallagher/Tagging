@@ -1,0 +1,11 @@
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\bin\Release\ILMerge.exe
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\bin\Release\ILMerge.exe.config
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\bin\Release\Tagging.Plugins_premerge.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\bin\Release\Tagging.Plugins_premerge.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\bin\Release\SeriousBit.Licensing.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\obj\Release\Plugins.csprojAssemblyReference.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\obj\Release\Plugins.csproj.CoreCompileInputs.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\obj\Release\Plugins.csproj.CopyComplete
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\obj\Release\Tagging.Plugins_premerge.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Plugins\obj\Release\Tagging.Plugins_premerge.pdb

@@ -1,0 +1,157 @@
+﻿<html>
+    <head>
+        <title>Content Tagging by xRM Consultancy</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" />
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="../ClientGlobalContext.js.aspx"></script>
+        <script type="text/javascript" src="js/json2.js"></script>
+        <script type="text/javascript" src="js/XrmServiceToolkit.js"></script>
+        <script type="text/javascript" src="js/jquery.tokeninput.js"></script>
+        <script type="text/javascript" src="js/tagging.js"></script>
+        <link rel="stylesheet" href="css/tagging.css" type="text/css" />
+    </head>
+
+    <body>
+        <div id="loading" style="top: 4px; left: 6px">
+            <img id="loadingImage" style="height: 15px; width: 15px;" src="/_imgs/AdvFind/progress.gif" />
+        </div>
+        <div id="loadingfull" style="display:none">
+            <img id="loadingImageFull" style="height: 15px; width: 15px;" src="/_imgs/AdvFind/progress.gif" />
+        </div>
+        <div id="taggingcontent">
+            <div id="tagMessage" style="display:none;"></div>
+            <input type="text" id="xrmc-tags" name="xRMCTags" style="display:none"/>
+            <div id="selectTagsToggle" class="comboButton floatright" style="display:none"><img src="css/listselect.png"></div>
+        </div>
+        <div id="selectTagContent">
+            <div id="selectTags" style="display:none;">
+                <input id="searchTags" class="search" placeholder="Search">
+                <button class="sort" data-sort="taglabel">Sort &#x2191;</button>
+                <span id="selectTagsHide" class="floatright"><img src="css/close16.png" /></span>
+                <ul class="list">
+                </ul>
+                <input type="button" id="saveTags" class="taggingButton" value="Save" />
+            </div>
+        </div>
+        <script type="text/javascript" src="js/list.min.js"></script>
+    <script type="text/javascript">
+        jQuery.noConflict();
+        (function ($) {
+
+            var isFirefox = typeof InstallTrigger !== 'undefined';
+            var isIE = /*@cc_on!@*/false || !!document.documentMode;
+            var isEdge = !isIE && !!window.StyleMedia;
+
+            var tagList;
+            var sortA = 0;
+            var visibleListHeight = -1;
+            var currentListHeight = 0;
+            var options = {
+                valueNames: ['taglabel']
+            };
+
+            $(window).resize(function () {
+                setHeights();
+            });
+            defaultHeights = function () {
+                if (isEdge)
+                    visibleListHeight = $("body").height();
+                else
+                    visibleListHeight = $(document).height();
+            }
+            setHeights = function (h) {
+                if (h != null) currentListHeight = h;
+                $('#selectTags').height(currentListHeight);
+                $('#selectTagContent').height(currentListHeight);
+                if (isFirefox) {
+                    $('.list').height($("#selectTags").height() - 62);
+                } else {
+                    $('.list').height($("#selectTags").height() - 59);
+                }
+            }
+            init = function () {
+                if (!XRMC) {
+                    setTimeout(init, 1);
+                } else {
+                    XRMC.tagging.init("#xrmc-tags", "#tagMessage");
+                }
+            };
+            $(document).ready(function () {
+                init();
+                defaultHeights();
+                $('#selectTagsToggle').hide();
+                $('#selectTagsToggle').mousedown(function () {
+                    document.activeElement.blur();
+                    $('#taggingcontent').hide();
+                    $('#selectTags').show();
+                    setHeights(visibleListHeight);
+                });
+                $('#selectTagsHide').click(function () {
+                    $('#selectTags').hide();
+                    $('#taggingcontent').show();
+                    $('#searchTags').val('');
+                    setHeights(0);
+                    tagList.search();
+                    document.activeElement.blur();
+                });
+                tagList = new List('selectTags', options);
+                tagList.sort('taglabel', { order: "asc" });
+                setHeights();
+                if (!WebResource.settings.disableListSelection) {
+                    $("#token-input-xrmc-tags").on("focus", function (e) {
+                        $('#selectTagsToggle').show();
+                    });
+
+                    $("#token-input-xrmc-tags").on("blur", function (e) {
+                        $('#selectTagsToggle').hide();
+                    });
+
+                    $("#token-input-xrmc-tags").on("keypress", function () {
+                        $('#selectTagsToggle').hide();
+                    });
+                }
+            });
+            $("#saveTags").click(function () {
+                // reset the list before saving or we lose the proper list of selected tags
+                $('#searchTags').val('');
+                tagList.search();
+
+                var selectedList = [];
+                $("#selectTags [type=checkbox]:checked").each(function () {
+                    selectedList.push({ name: $(this).val() });
+                });
+                var tagged = selectedList.filter(comparer(XRMC.tagging.runninglist));
+                for (var i = 0; i < tagged.length; i++) {
+                    XRMC.tagging.addTag(tagged[i].name, "fullloader");
+                }
+
+                var untagged = XRMC.tagging.runninglist.filter(comparer(selectedList));
+                for (var i = 0; i < untagged.length; i++) {
+                    XRMC.tagging.deleteTag(untagged[i].name, "fullloader");
+                }
+                $('#selectTags').hide();
+                $('#taggingcontent').show();
+                document.activeElement.blur();
+                setHeights(0);
+            });
+            $(".sort").click(function () {
+                if (sortA === 1) {
+                    $(this).text("Sort \u2191");
+                    sortA = 0;
+                } else {
+                    $(this).text("Sort \u2193");
+                    sortA = 1;
+                }
+            });
+            function comparer(otherArray) {
+                return function (current) {
+                    return otherArray.filter(function (other) {
+                        return prettyTag(other.name) == prettyTag(current.name)
+                    }).length == 0;
+                }
+            }
+
+        })(jQuery);
+    </script>
+</body>
+</html>

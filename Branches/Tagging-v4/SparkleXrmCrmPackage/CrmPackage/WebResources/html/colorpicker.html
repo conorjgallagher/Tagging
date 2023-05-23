@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="../ClientGlobalContext.js.aspx"></script>
+    <script type="text/javascript" src="js/spectrum.js"></script>
+    <link rel="stylesheet" href="css/spectrum.css" type="text/css" />
+</head>
+<body>
+    <input type='text' id="colorpicker" />
+    <script>
+        "use strict";
+        jQuery.noConflict();
+        (function ($) {
+
+            var fieldName;
+            $(document).ready(function () {
+                init();
+            }
+            );
+            function init() {
+                if (!window.parent.Xrm.Page) {
+                    setTimeout(init, 1);
+                } else {
+                    getDataParam();
+                    var fieldcolor = window.parent.Xrm.Page.getAttribute(fieldName).getValue();
+                    $("#colorpicker").spectrum({
+                        preferredFormat: "hex",
+                        showInput: true,
+                        showInitial: true,
+                        flat: true,
+                        allowEmpty: true,
+                        color: fieldcolor,
+                        cancelFiresChange: true,
+                        change: function (color) {
+                            window.parent.Xrm.Page.getAttribute(fieldName).setValue(color.toHexString());
+                            window.parent.Xrm.Page.getControl("WebResource_sampletag").getObject().contentWindow.window.setColors();
+                        }
+                    });
+                }
+            };
+            function getDataParam() {
+                var vals = new Array();
+                if (location.search !== "") {
+                    vals = location.search.substr(1).split("&");
+                    for (var i in vals) {
+                        vals[i] = vals[i].replace(/\+/g, "").split("=");
+                    }
+
+                    // Look for the parameter named ‘data’ among query string parameters
+                    for (var i in vals) {
+                        if (vals[i][0].toLowerCase() === "data") {
+                            // Call parseDataValue to read params passed in “Custom Parameter(data)”
+                            parseDataValue(vals[i][1]);
+                            break;
+                        }
+                    }
+                }
+            }
+
+            function parseDataValue(datavalue) {
+                if (datavalue !== "") {
+                    var vals = new Array();
+                    vals = decodeURIComponent(datavalue).split("&");
+                    fieldName = vals[0];
+                }
+            }
+
+        })(jQuery);
+    </script>
+</body>
+</html>

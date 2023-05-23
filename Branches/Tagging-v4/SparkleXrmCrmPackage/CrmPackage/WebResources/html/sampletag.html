@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta>
+    <style>
+        #tag {
+            border: 1px solid #B1D6F0;
+            padding: 3px;
+            background: #e4e8ed;
+            font-family: "Segoe UI",Arial,Sans-Serif;
+            font-size: 11px;
+            text-align: center
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="../ClientGlobalContext.js.aspx"></script>
+</head>
+<body style="word-wrap: break-word;">
+    <div id="tag">Sample Tag</div>
+    <script>
+        "use strict";
+        $(document).ready(function () {
+            init();
+        });
+        function init() {
+            if (!window.parent.Xrm.Page) {
+                setTimeout(init, 1);
+            } else {
+                setColors();
+            }
+        };
+        function setColors () {
+            $("#tag").css("background-color", window.parent.Xrm.Page.getAttribute("xrmc_backcolor").getValue());
+            $("#tag").css("border-color", window.parent.Xrm.Page.getAttribute("xrmc_bordercolor").getValue());
+            $("#tag").css("color", window.parent.Xrm.Page.getAttribute("xrmc_fontcolor").getValue());
+        };
+    </script>
+</body>
+</html>

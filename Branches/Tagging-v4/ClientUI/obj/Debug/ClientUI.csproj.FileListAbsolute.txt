@@ -1,0 +1,15 @@
+C:\Dev\BDODublin\DynamicsExtensions\BDO.Sparkle\ClientUI\obj\Debug\ClientUI.csprojAssemblyReference.cache
+C:\Dev\BDODublin\DynamicsExtensions\BDO.Sparkle\ClientUI\obj\Debug\ClientUI.csproj.CoreCompileInputs.cache
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\SparkleXrmCrmPackage\CrmPackage\WebResources\js\ClientUI.dll
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\SparkleXrmCrmPackage\CrmPackage\WebResources\js\ClientUI.pdb
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\ClientUI\obj\Debug\ClientUI.csprojAssemblyReference.cache
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\ClientUI\obj\Debug\ClientUI.csproj.CoreCompileInputs.cache
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\ClientUI\obj\Debug\ClientUI.csproj.CopyComplete
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\ClientUI\obj\Debug\ClientUI.dll
+C:\Dev\BDODublin\DynamicsExtensions\BDO.UserFinancials\ClientUI\obj\Debug\ClientUI.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\WebResources\js\ClientUI.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\WebResources\js\ClientUI.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientUI\obj\Debug\ClientUI.csprojAssemblyReference.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientUI\obj\Debug\ClientUI.csproj.CopyComplete
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientUI\obj\Debug\ClientUI.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientUI\obj\Debug\ClientUI.pdb

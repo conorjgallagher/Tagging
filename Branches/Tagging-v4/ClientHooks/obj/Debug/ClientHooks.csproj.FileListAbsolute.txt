@@ -1,0 +1,9 @@
+C:\Dev\BDODublin\DynamicsExtensions\BDO.Sparkle\ClientHooks\obj\Debug\ClientHooks.csprojAssemblyReference.cache
+C:\Dev\BDODublin\DynamicsExtensions\BDO.Sparkle\ClientHooks\obj\Debug\ClientHooks.csproj.CoreCompileInputs.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\WebResources\js\ClientHooks.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\WebResources\js\ClientHooks.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientHooks\obj\Debug\ClientHooks.csprojAssemblyReference.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientHooks\obj\Debug\ClientHooks.csproj.CoreCompileInputs.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientHooks\obj\Debug\ClientHooks.csproj.CopyComplete
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientHooks\obj\Debug\ClientHooks.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientHooks\obj\Debug\ClientHooks.pdb

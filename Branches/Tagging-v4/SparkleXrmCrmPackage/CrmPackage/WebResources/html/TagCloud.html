@@ -1,0 +1,38 @@
+<html>
+<head>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="../ClientGlobalContext.js.aspx"></script>
+    <link rel="stylesheet" href="css/tagging.css" type="text/css" />
+
+</head>
+
+<body>
+
+    <!-- Sparkle Xrm dependancies -->
+    <script src="js/SparkleXrmUI_Dependancies.js"></script>
+
+    <!-- Sparkle Xrm -->
+    <script src="js/mscorlib.js" type="text/javascript"></script>
+    <script src="js/SparkleXrm.js" type="text/javascript"></script>
+    <script src="js/SparkleXrmUI.js" type="text/javascript"></script>
+    <script src="js/promise.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="js/jquery.tagcloud.js"></script>
+    <script type="text/javascript" src="js/TaggingClientUI.js"></script>
+
+    <div>
+        <div id="xrmc-tagCloud-refresh"><a href="#" onClick="window.location.reload(); return false;" tabindex="0"><img src="/_imgs/imagestrips/transparent_spacer.gif" class="refreshTagCloud" style="cursor:pointer" alt="Refresh Tag Cloud" title="Refresh Tag Cloud"></a></div>
+        <h1 class="xrmc-tagCloud">Tag Cloud</h1>
+        <div id="tagMessage" style="display:none" data-bind="visible: shouldShowMessage">
+            <span></span>
+            <div id="notAuthorised" style="display:none;" data-bind="visible: shouldShowMessage">You do not have the correct permissions to use Tagging. Please contact your system administrator.</div>
+        </div>
+        <div id="xrmc-tagCloud"></div>
+        <script type="text/javascript">
+            ClientUI.Tagging.Views.TagCloudView.init();
+        </script>
+
+    </div>
+
+</body>
+</html>

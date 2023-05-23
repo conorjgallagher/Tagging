@@ -1,0 +1,5 @@
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\WebResources\js\ClientUI.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientUI\obj\Release\ClientUI.csprojAssemblyReference.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientUI\obj\Release\ClientUI.csproj.CoreCompileInputs.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientUI\obj\Release\ClientUI.csproj.CopyComplete
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\ClientUI\obj\Release\ClientUI.dll

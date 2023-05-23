@@ -1,0 +1,6 @@
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging\bin\Tagging.dll.config
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging\bin\Tagging.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging\bin\Tagging.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging\obj\Release\Tagging.csproj.CoreCompileInputs.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging\obj\Release\Tagging.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\Tagging\obj\Release\Tagging.pdb

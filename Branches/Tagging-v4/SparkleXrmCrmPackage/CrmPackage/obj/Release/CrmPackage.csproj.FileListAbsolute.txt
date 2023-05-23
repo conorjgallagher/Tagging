@@ -1,0 +1,6 @@
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\bin\Release\SparkleXrmCrmPackage.CrmPackage.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\bin\Release\SparkleXrmCrmPackage.CrmPackage.pdb
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\obj\Release\CrmPackage.csprojAssemblyReference.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\obj\Release\CrmPackage.csproj.CoreCompileInputs.cache
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\obj\Release\SparkleXrmCrmPackage.CrmPackage.dll
+C:\Dev\xRMC\Tagging\Branches\Tagging-v4\SparkleXrmCrmPackage\CrmPackage\obj\Release\SparkleXrmCrmPackage.CrmPackage.pdb

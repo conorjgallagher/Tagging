@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3f4cc8d7-2cbd-4ca4-b8c2-0c0768736334</ProjectGuid>
+    <ProjectTypeGuids>{88A30576-7583-4F75-8136-5EFD2C14ADFF}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CrmPackage</RootNamespace>
+    <AssemblyName>CrmPackage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <OutputFile>CrmPackage.zip</OutputFile>
+    <Name>CrmPackage</Name>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <MainFile>WebResources\Web Page (HTML)\TagCloud.html</MainFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="WebResources\PNG format\" />
+    <Folder Include="WebResources\Script %28JScript%29\" />
+    <Folder Include="WebResources\Style Sheet %28CSS%29\" />
+    <Folder Include="WebResources\Web Page %28HTML%29\" />
+    <RegisterPlugin Include="RegisterFile.crmregister">
+      <DisplayName>RegisterFile</DisplayName>
+      <UniqueName>xrmc_RegisterFile</UniqueName>
+      <WebResourceType>NotSupported</WebResourceType>
+    </RegisterPlugin>
+    <Folder Include="WebResources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Plugins\Plugins.csproj">
+      <Name>Plugins</Name>
+      <Project>{ecc8fb0e-8988-4cbd-bca0-b2d90d67a8a0}</Project>
+      <Private>True</Private>
+      <SilverlightApplication>False</SilverlightApplication>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <CRMWebResource Include="WebResources\PNG format\logo.png">
+      <DisplayName>xrmc_/img/logo.png</DisplayName>
+      <UniqueName>xrmc_/img/logo.png</UniqueName>
+      <WebResourceType>PNG</WebResourceType>
+      <WebResourceLanguage>English (United States)</WebResourceLanguage>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script %28JScript%29\jquery.min.js">
+      <DisplayName>xrmc_/js/jquery.min.js</DisplayName>
+      <UniqueName>xrmc_/js/jquery.min.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script %28JScript%29\jquery.tagcloud.js">
+      <DisplayName>xrmc_/js/jquery.tagcloud.js</DisplayName>
+      <UniqueName>xrmc_/js/jquery.tagcloud.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script %28JScript%29\jquery.tokeninput.js">
+      <DisplayName>xrmc_/js/jquery.tokeninput.js</DisplayName>
+      <UniqueName>xrmc_/js/jquery.tokeninput.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script %28JScript%29\json2.js">
+      <DisplayName>xrmc_/js/json2.js</DisplayName>
+      <UniqueName>xrmc_/js/json2.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script %28JScript%29\sdk_rest.js">
+      <DisplayName>xrmc_/js/sdk_rest.js</DisplayName>
+      <UniqueName>xrmc_/js/sdk_rest.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+      <WebResourceLanguage>English (United States)</WebResourceLanguage>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script %28JScript%29\tagging.js">
+      <DisplayName>xrmc_/js/tagging.js</DisplayName>
+      <UniqueName>xrmc_/js/tagging.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script %28JScript%29\TaggingConfig.js">
+      <DisplayName>xrmc_/js/TaggingConfig.js</DisplayName>
+      <UniqueName>xrmc_/js/TaggingConfig.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+      <WebResourceLanguage>English (United States)</WebResourceLanguage>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script %28JScript%29\XrmServiceToolkit.js">
+      <DisplayName>xrmc_/js/XrmServiceToolkit.js</DisplayName>
+      <UniqueName>xrmc_/js/XrmServiceToolkit.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Style Sheet %28CSS%29\tagging.css">
+      <DisplayName>xrmc_/css/tagging.css</DisplayName>
+      <UniqueName>xrmc_/css/tagging.css</UniqueName>
+      <WebResourceType>CascadingStylesheet</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Web Page (HTML)\Tagging_Terms_Conditions.html">
+      <UniqueName>xrmc_/Tagging_Terms_Conditions.html</UniqueName>
+      <WebResourceType>WebPage</WebResourceType>
+      <DisplayName>Tagging_Terms_Conditions.html</DisplayName>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Web Page (HTML)\TagCloud.html">
+      <DisplayName>TagCloud.html</DisplayName>
+      <UniqueName>xrmc_/TagCloud.html</UniqueName>
+      <WebResourceType>WebPage</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Web Page (HTML)\Tagging.html">
+      <DisplayName>Tagging.html</DisplayName>
+      <UniqueName>xrmc_/Tagging.html</UniqueName>
+      <WebResourceType>WebPage</WebResourceType>
+    </CRMWebResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\CRM\Microsoft.CrmDeveloperTools.12.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+			 Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>
